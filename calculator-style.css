@@ -19,21 +19,7 @@ body{
     box-shadow: 2px 2px 1px 1px #224558, 
     5px 5px 7px 2px #000000;
 }
-button{
-    cursor: pointer;
-    margin: 4px;
-    padding: 0;
-    border-radius: 25px;
-    border: none;
-    background-color: #234558;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    box-shadow: 5px 5px 10px -2px #18303d
-}
-button:active {
-    background-color: #2b5770;
-}
+
 .display{
     background-color: #18303d;
     grid-column: 1/ -1;
@@ -46,4 +32,21 @@ button:active {
     font-family: Arial, Helvetica, sans-serif;
     font-size:xx-large;
     
+}
+
+button{
+    cursor: pointer;
+    margin: 4px;
+    padding: 0;
+    border-radius: 25px;
+    border: none;
+    background-color: #234558;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    box-shadow: 5px 5px 10px -2px #18303d
+}
+
+button:active {
+    background-color: #2b5770;
 }
