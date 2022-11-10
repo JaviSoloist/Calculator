@@ -12,7 +12,7 @@ body{
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 75px);
-    grid-template-rows: 140px repeat(4, 75px);
+    grid-template-rows: 140px repeat(5, 75px);
     background-color: #2b5770 ;
     padding: 15px;
     border-radius: 25px;
@@ -49,4 +49,11 @@ button{
 
 button:active {
     background-color: #2b5770;
+}
+.double{
+    grid-row: span 2;
+}
+.colored{
+    background-color: #304c5d;
+
 }

@@ -17,16 +17,16 @@ function buttonPressed(button) {
 
 function equals(){
     if(operator === "+"){
-        result.innerHTML = parseInt(firstNum, 10) + parseInt(result.innerHTML, 10);
+        result.innerHTML = parseFloat(firstNum, 10) + parseFloat(result.innerHTML, 10);
     }
     if(operator === "-"){
-        result.innerHTML = parseInt(firstNum, 10) - parseInt(result.innerHTML, 10);
+        result.innerHTML = parseFloat(firstNum, 10) - parseFloat(result.innerHTML, 10);
     }
     if(operator === "*"){
-        result.innerHTML = parseInt(firstNum, 10) * parseInt(result.innerHTML, 10);
+        result.innerHTML = parseFloat(firstNum, 10) * parseFloat(result.innerHTML, 10);
     }
     if(operator === "/"){
-        result.innerHTML = parseInt(firstNum, 10) / parseInt(result.innerHTML, 10);
+        result.innerHTML = parseFloat(firstNum, 10) / parseFloat(result.innerHTML, 10);
     }
     return
     }
