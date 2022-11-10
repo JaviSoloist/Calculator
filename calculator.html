@@ -8,18 +8,18 @@
     <title>calculator</title>
 </head>
 <body>
-    <script src="C:\Users\jacar\Desktop\Curso html\ejercicios\calculator\calculator.js"></script>
+    <script src="C:\Users\Javi\Desktop\Calculator\Calculator\calculator.js"></script>
  <div class="container" id="container">  
     <div class="calculator" id="buttons">
         <div id="result" class="display"></div>
-        <button id="c" onclick="clear()">C</button>
-        <button id="/">/</button>
-        <button id="x">x</button>
+        <button id="c" onclick="reset()">C</button>
+        <button id="/" onclick="getNumAndOperator(this)" value="/">/</button>
+        <button id="x" onclick="getNumAndOperator(this)" value="*">x</button>
         <button id="b" onclick="erase()">Back</button>
         <button id="7" onclick="buttonPressed(this)" value="7">7</button>
         <button id="8" onclick="buttonPressed(this)" value="8">8</button>
         <button id="9" onclick="buttonPressed(this)" value="9">9</button>
-        <button id="subtract">-</button>
+        <button id="subtract" onclick="getNumAndOperator(this)" value="-">-</button>
         <button id="4" onclick="buttonPressed(this)" value="4">4</button>
         <button id="5" onclick="buttonPressed(this)" value="5">5</button>
         <button id="6" onclick="buttonPressed(this)" value="6">6</button>

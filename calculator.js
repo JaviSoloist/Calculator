@@ -5,34 +5,35 @@ function buttonPressed(button) {
     return result
     }
  
-    
-    /*function sum(button){
-        return result.innerHTML = result.innerHTML + button.value
-        
-    }
-    function equals(){
-       result.innerHTML = eval(result.innerHTML)
-    }*/
     let firstNum = ""
     let operator = ""
+
     function getNumAndOperator(button){
-         firstNum = result.innerHTML;
-         operator = button.value;
-         result.innerHTML = ""
-         return  
+        firstNum = result.innerHTML;
+        operator = button.value;
+        result.innerHTML = ""
+    return  
     }
 
-    function equals(){
-        if(operator === "+"){
-            result.innerHTML = parseInt(firstNum, 10) + parseInt(result.innerHTML, 10);
-        }
-        return
+function equals(){
+    if(operator === "+"){
+        result.innerHTML = parseInt(firstNum, 10) + parseInt(result.innerHTML, 10);
+    }
+    if(operator === "-"){
+        result.innerHTML = parseInt(firstNum, 10) - parseInt(result.innerHTML, 10);
+    }
+    if(operator === "*"){
+        result.innerHTML = parseInt(firstNum, 10) * parseInt(result.innerHTML, 10);
+    }
+    if(operator === "/"){
+        result.innerHTML = parseInt(firstNum, 10) / parseInt(result.innerHTML, 10);
+    }
+    return
     }
     
     function erase(){
         return result.innerHTML = result.innerHTML.slice(0, -1)
     }
-
-    /* esto no va cristian. function clear(){
-       return result.innerHTML = "";
-    }*/
+    function reset(){
+        result.innerHTML = ""
+    }
